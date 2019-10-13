@@ -20,7 +20,7 @@ const sendIpRequest = async () => {
     if (ipFromFile !== ip) {
       console.log('Ips do not match, writing to file', ipFromFile, ip);
       writeRequest(ip);
-      await sendMail();
+      await sendMail(ip);
     }
   }
 
