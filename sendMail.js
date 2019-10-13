@@ -7,7 +7,6 @@ const sendMail = async (ip) => {
     EMAIL_USERNAME,
     USER_FIRST_NAME,
     USER_LAST_NAME,
-    SMTP_SERVER,
     SMTP_PORT
   } = process.env;
   let transporter = nodemailer.createTransport({

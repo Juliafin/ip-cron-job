@@ -22,6 +22,8 @@ const sendIpRequest = async () => {
       console.log('Ips do not match, writing to file', ipFromFile, ip);
       writeRequest(ip);
       await sendMail(ip);
+    } else {
+      console.log('IPs match, not sending request')
     }
   }
 
