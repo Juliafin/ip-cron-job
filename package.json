@@ -1,8 +1,8 @@
 {
-  "name": "ipCronJob",
+  "name": "ip-cron-job",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This application retrieves the user's ip address from an external api and sends an email notifying them that it has been updated",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
